@@ -1,0 +1,14 @@
+name: drawbot_log
+version: 0.1.0
+
+targets:
+  app:
+    main: src/app.cr
+
+dependencies:
+  discordcr:
+    github: discordcr/discordcr
+    branch: "cr-0.34"
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+    version: "0.16.0"
